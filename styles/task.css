@@ -1,0 +1,121 @@
+.tasks {
+    margin-top: 150px;
+    margin-left: 125px;
+    margin-right:125px;
+}
+.task__info {
+color: brown;
+width: 403px;
+font-size: 35px;
+margin-bottom: 74px;
+}
+
+.task__headline-photo {
+    width: 100%;
+    height: 200px;
+flex-shrink: 0;
+border-radius: 30px;
+}
+.task__background {
+    position: relative;
+    background: #191C19;
+    width: 100%;
+    height: 283px;
+flex-shrink: 0;
+border-radius: 30px;
+margin-bottom: 74px;
+}
+.task__headline {
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 1048px;
+    height: 72px;
+    color: red;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.65px;
+    }
+.task__text {
+    position: absolute;
+margin-top: 20px;
+    padding-left: 40px;
+    max-width: 500px;
+    font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.66px;
+}
+@media (max-width: 1199px) { 
+    .tasks {
+        margin-left: 15px;
+        margin-right: 15px; }
+        
+        .task__headline-photo {
+            width: 100%;
+            height: 162px; }
+.task__background {
+    height: 200px;
+}
+         .task__headline {
+            width: 356px;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 110%; /* 49.5px */
+            letter-spacing: -1.35px;
+         padding-top:18px;
+         }
+    .task__text {
+        max-width: 423px;
+        font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.54px;
+padding-left: 500px;
+margin-top: -75px;
+    }
+    }
+    @media  (max-width: 768px) {
+
+    .tasks {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 60px;
+   }
+.task__info {
+    margin-bottom: 30px;
+    width: 100%; }
+        .task__headline-photo {
+            width: 350px;
+height: 225px;
+margin-top: 10px;}
+         .task__background  {
+            width: 348px;
+height: 357px;
+margin-bottom: 30px;
+         }
+         .task__headline {
+            max-width: 204px;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 110%; /* 38.5px */
+           letter-spacing: -1.05px;
+           padding-left: 21px;
+          
+         }
+         .task__text {
+            max-width: 254px;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.54px;
+            padding-left: 21px;
+            margin-top: 45px;
+        }
+    }

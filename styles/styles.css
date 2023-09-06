@@ -1,0 +1,39 @@
+@import 'intro.css';
+@import 'header.css';
+@import 'project.css';
+@import 'skills.css';
+@import 'task.css';
+@import 'contacts.css';
+@import 'footer.css';
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Oswald:wght@300&display=swap');
+html {
+    scroll-behavior: smooth;
+    }
+    
+    .container {
+    margin: 0 auto;
+    overflow: hidden;
+    }
+    
+    section,
+    .header,
+    .main {
+    background-color: #000;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    a,
+    p,
+    img,
+    li,
+    button,
+    section {
+    letter-spacing: -0.03em;
+    line-height: normal;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }

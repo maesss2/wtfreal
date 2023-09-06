@@ -1,0 +1,152 @@
+.projects {
+    padding-left: 125px;
+    padding-right: 125px;
+}
+.project__info {
+    width: 1048px;
+    height: 72PX;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    color: #FFF;
+font-size: 55px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.65px;
+}
+.project__link{
+    position: static; 
+    overflow: hidden; }
+
+.project__img {
+    width: 100%;
+     height: 550px;
+      margin: 0 auto;
+    color: #121212;
+    border-radius: 30;
+    transition: 1s;
+    background-size: cover;
+    }
+
+    .project__img:hover {
+        transform: scale(1.2);
+        width: 1450px;
+    }
+.project__headline {
+    width: 401px;
+    position:absolute;
+    text-align: left;
+    padding-top: 410px;
+    padding-left: 70px;
+    color: #FFF;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.05px;
+}
+.project__text {
+    width: 506px;
+    position: absolute;
+    text-align: left;
+    padding-left: 70px;
+    padding-top: 450px;
+    color: #FFF;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.9px;
+}
+.Project__Button-active {
+    display: block;
+    background-color:red;
+    border-radius: 10px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 10px;
+    font-size: 30px;
+    letter-spacing: -0.9px;
+    width: 582px;
+height: 153px;
+flex-shrink: 0;
+margin-bottom: 150px;
+overflow: hidden;
+transition: 0.8s;
+position: absolute;
+}
+.Project__Button-active:hover {
+    background: black;
+color: red;
+border: 2px solid red;
+}
+
+@media (max-width: 1199px) {
+    .projects {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .Project__Button-active {
+        width: 450px;
+        height: 130px;
+    }
+}
+@media (max-width: 767px) {
+    .projects {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .project__img {
+        width: 100%;
+       height: 345px;
+       color: #121212;
+       padding-bottom: 0px;
+       border-radius: 30;
+       transition: 1s;
+       background-size: cover;
+      margin-left: 0px;
+       }
+    .project__info {
+        margin-top: 110px;
+        width: 268px;
+        font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.9px;
+    }
+    .project__headline {
+        padding-left: 15px;
+padding-top: 250px;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.84px;
+max-width: 200px;
+    }
+.project__text {
+    padding-left: 15px;
+padding-top: 274px;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.48px;
+max-width: 200px;
+}
+    .Project__Button-active {
+        width: 250px;
+margin-left: 13px;
+margin-right: 15px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+height: 80px;
+font-size: 25px;
+    letter-spacing: -0.9px;
+    }
+
+
+}
